@@ -240,7 +240,7 @@ public class MainActivity extends Activity {
 		tr[21] = (TableRow)findViewById(R.id.tableRow22);
 		tv[21] = (TextView)findViewById(R.id.textview22);
 		expiredDate[21] = (TextView)findViewById(R.id.textview22_2);
-		s[21].setCCP("CCP-069.png");
+		s[21].setCCP("CCP-073.png");
 		//s[20].setURL("http://deals.superlife.ca/couponinfo/nofrills%e6%9c%ac%e5%91%a8%e7%89%b9%e4%bb%b7flyer/", 0);
 		//s[20].setURL("http://nofrills.flyercenter.com/flyer/", 1);
 		//s[21].setURL("http://www.dushi.ca/tor/supermarket.php?pageid=10", 2);
@@ -432,7 +432,7 @@ public class MainActivity extends Activity {
 		}else if(temp.length()<9){
 			return Integer.parseInt(temp);
 		}else{
-			return Integer.parseInt(temp.substring(4, 8)+temp.substring(12, temp.length()));
+			return Integer.parseInt(temp.substring(4, 8)+temp.substring(12, 16));
 		}
 	}
 	

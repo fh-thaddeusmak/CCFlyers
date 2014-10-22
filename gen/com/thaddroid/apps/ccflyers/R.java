@@ -1155,13 +1155,13 @@ containing a value of this type.
         public static final int zOrderOnTop=0x7f010010;
     }
     public static final class bool {
-        public static final int abc_action_bar_embed_tabs_pre_jb=0x7f0a0000;
-        public static final int abc_action_bar_expanded_action_views_exclusive=0x7f0a0001;
+        public static final int abc_action_bar_embed_tabs_pre_jb=0x7f090000;
+        public static final int abc_action_bar_expanded_action_views_exclusive=0x7f090001;
         /**  Whether action menu items should be displayed in ALLCAPS or not.
          Defaults to true. If this is not appropriate for specific locales
          it should be disabled in that locale's resources. 
          */
-        public static final int abc_config_actionMenuItemAllCaps=0x7f0a0005;
+        public static final int abc_config_actionMenuItemAllCaps=0x7f090005;
         /**  Whether action menu items should obey the "withText" showAsAction
     flag. This may be set to false for situations where space is
     extremely limited. 
@@ -1169,9 +1169,9 @@ containing a value of this type.
          This may be set to false for situations where space is
          extremely limited. 
          */
-        public static final int abc_config_allowActionMenuItemTextWithIcon=0x7f0a0004;
-        public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f0a0003;
-        public static final int abc_split_action_bar_is_narrow=0x7f0a0002;
+        public static final int abc_config_allowActionMenuItemTextWithIcon=0x7f090004;
+        public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f090003;
+        public static final int abc_split_action_bar_is_narrow=0x7f090002;
     }
     public static final class color {
         public static final int abc_search_url_text_holo=0x7f07001a;
@@ -1220,83 +1220,83 @@ containing a value of this type.
  Default height of an action bar. 
  Default height of an action bar. 
          */
-        public static final int abc_action_bar_default_height=0x7f0b0002;
+        public static final int abc_action_bar_default_height=0x7f0a0002;
         /**  Vertical padding around action bar icons. 
  Vertical padding around action bar icons. 
  Vertical padding around action bar icons. 
  Vertical padding around action bar icons. 
  Vertical padding around action bar icons. 
          */
-        public static final int abc_action_bar_icon_vertical_padding=0x7f0b0003;
+        public static final int abc_action_bar_icon_vertical_padding=0x7f0a0003;
         /**  Size of the indeterminate Progress Bar 
  Size of the indeterminate Progress Bar 
          */
-        public static final int abc_action_bar_progress_bar_size=0x7f0b000a;
+        public static final int abc_action_bar_progress_bar_size=0x7f0a000a;
         /**  Maximum height for a stacked tab bar as part of an action bar 
          */
-        public static final int abc_action_bar_stacked_max_height=0x7f0b0009;
+        public static final int abc_action_bar_stacked_max_height=0x7f0a0009;
         /**  Maximum width for a stacked action bar tab. This prevents
          action bar tabs from becoming too wide on a wide screen when only
          a few are present. 
          */
-        public static final int abc_action_bar_stacked_tab_max_width=0x7f0b0001;
+        public static final int abc_action_bar_stacked_tab_max_width=0x7f0a0001;
         /**  Bottom margin for action bar subtitles 
  Bottom margin for action bar subtitles 
  Bottom margin for action bar subtitles 
  Bottom margin for action bar subtitles 
  Bottom margin for action bar subtitles 
          */
-        public static final int abc_action_bar_subtitle_bottom_margin=0x7f0b0007;
+        public static final int abc_action_bar_subtitle_bottom_margin=0x7f0a0007;
         /**  Text size for action bar subtitles 
  Text size for action bar subtitles 
  Text size for action bar subtitles 
  Text size for action bar subtitles 
  Text size for action bar subtitles 
          */
-        public static final int abc_action_bar_subtitle_text_size=0x7f0b0005;
+        public static final int abc_action_bar_subtitle_text_size=0x7f0a0005;
         /**  Top margin for action bar subtitles 
  Top margin for action bar subtitles 
  Top margin for action bar subtitles 
  Top margin for action bar subtitles 
  Top margin for action bar subtitles 
          */
-        public static final int abc_action_bar_subtitle_top_margin=0x7f0b0006;
+        public static final int abc_action_bar_subtitle_top_margin=0x7f0a0006;
         /**  Text size for action bar titles 
  Text size for action bar titles 
  Text size for action bar titles 
  Text size for action bar titles 
  Text size for action bar titles 
          */
-        public static final int abc_action_bar_title_text_size=0x7f0b0004;
+        public static final int abc_action_bar_title_text_size=0x7f0a0004;
         /**  Minimum width for an action button in the menu area of an action bar 
  Minimum width for an action button in the menu area of an action bar 
  Minimum width for an action button in the menu area of an action bar 
          */
-        public static final int abc_action_button_min_width=0x7f0b0008;
+        public static final int abc_action_button_min_width=0x7f0a0008;
         /**  The maximum width we would prefer dialogs to be.  0 if there is no
     maximum (let them grow as large as the screen).  Actual values are
     specified for -large and -xlarge configurations. 
  see comment in values/config.xml 
  see comment in values/config.xml 
          */
-        public static final int abc_config_prefDialogWidth=0x7f0b0000;
+        public static final int abc_config_prefDialogWidth=0x7f0a0000;
         /**  Width of the icon in a dropdown list 
          */
-        public static final int abc_dropdownitem_icon_width=0x7f0b0010;
+        public static final int abc_dropdownitem_icon_width=0x7f0a0010;
         /**  Text padding for dropdown items 
          */
-        public static final int abc_dropdownitem_text_padding_left=0x7f0b000e;
-        public static final int abc_dropdownitem_text_padding_right=0x7f0b000f;
-        public static final int abc_panel_menu_list_width=0x7f0b000b;
+        public static final int abc_dropdownitem_text_padding_left=0x7f0a000e;
+        public static final int abc_dropdownitem_text_padding_right=0x7f0a000f;
+        public static final int abc_panel_menu_list_width=0x7f0a000b;
         /**  Preferred width of the search view. 
          */
-        public static final int abc_search_view_preferred_width=0x7f0b000d;
+        public static final int abc_search_view_preferred_width=0x7f0a000d;
         /**  Minimum width of the search view text entry area. 
  Minimum width of the search view text entry area. 
  Minimum width of the search view text entry area. 
  Minimum width of the search view text entry area. 
          */
-        public static final int abc_search_view_text_min_width=0x7f0b000c;
+        public static final int abc_search_view_text_min_width=0x7f0a000c;
         /**  The platform's desired fixed height for a dialog along the major axis
          (the screen is in portrait). This may be either a fraction or a dimension.
  The platform's desired fixed height for a dialog along the major axis
@@ -1304,7 +1304,7 @@ containing a value of this type.
  The platform's desired fixed height for a dialog along the major axis
          (the screen is in portrait). This may be either a fraction or a dimension.
          */
-        public static final int dialog_fixed_height_major=0x7f0b0013;
+        public static final int dialog_fixed_height_major=0x7f0a0013;
         /**  The platform's desired fixed height for a dialog along the minor axis
          (the screen is in landscape). This may be either a fraction or a dimension.
  The platform's desired fixed height for a dialog along the minor axis
@@ -1312,7 +1312,7 @@ containing a value of this type.
  The platform's desired fixed height for a dialog along the minor axis
          (the screen is in landscape). This may be either a fraction or a dimension.
          */
-        public static final int dialog_fixed_height_minor=0x7f0b0014;
+        public static final int dialog_fixed_height_minor=0x7f0a0014;
         /**  The platform's desired fixed width for a dialog along the major axis
          (the screen is in landscape). This may be either a fraction or a dimension.
  The platform's desired fixed width for a dialog along the major axis
@@ -1320,7 +1320,7 @@ containing a value of this type.
  The platform's desired fixed width for a dialog along the major axis
          (the screen is in landscape). This may be either a fraction or a dimension.
          */
-        public static final int dialog_fixed_width_major=0x7f0b0011;
+        public static final int dialog_fixed_width_major=0x7f0a0011;
         /**  The platform's desired fixed width for a dialog along the minor axis
          (the screen is in portrait). This may be either a fraction or a dimension.
  The platform's desired fixed width for a dialog along the minor axis
@@ -1328,7 +1328,7 @@ containing a value of this type.
  The platform's desired fixed width for a dialog along the minor axis
          (the screen is in portrait). This may be either a fraction or a dimension.
          */
-        public static final int dialog_fixed_width_minor=0x7f0b0012;
+        public static final int dialog_fixed_width_minor=0x7f0a0012;
     }
     public static final class drawable {
         public static final int abc_ab_bottom_solid_dark_holo=0x7f020000;
@@ -1476,203 +1476,203 @@ containing a value of this type.
         public static final int yuanming=0x7f02008e;
     }
     public static final class id {
-        public static final int TableLayout1=0x7f08004f;
-        public static final int action_bar=0x7f08002e;
-        public static final int action_bar_activity_content=0x7f080027;
-        public static final int action_bar_container=0x7f08002d;
-        public static final int action_bar_overlay_layout=0x7f080031;
-        public static final int action_bar_root=0x7f08002c;
-        public static final int action_bar_subtitle=0x7f080035;
-        public static final int action_bar_title=0x7f080034;
-        public static final int action_context_bar=0x7f08002f;
-        public static final int action_exit=0x7f0800c4;
-        public static final int action_force=0x7f0800c3;
-        public static final int action_menu_divider=0x7f080028;
-        public static final int action_menu_presenter=0x7f080029;
-        public static final int action_mode_close_button=0x7f080036;
-        public static final int action_refresh=0x7f0800c2;
-        public static final int activity_chooser_view_content=0x7f080037;
-        public static final int adView=0x7f08004e;
-        public static final int always=0x7f08001e;
-        public static final int beginning=0x7f080023;
-        public static final int book_now=0x7f080010;
-        public static final int buyButton=0x7f08000a;
-        public static final int buy_now=0x7f08000f;
-        public static final int buy_with_google=0x7f08000e;
-        public static final int checkbox=0x7f08003f;
-        public static final int classic=0x7f080011;
-        public static final int collapseActionView=0x7f080020;
-        public static final int default_activity_button=0x7f08003a;
-        public static final int dialog=0x7f080021;
-        public static final int disableHome=0x7f08001b;
-        public static final int dropdown=0x7f080022;
-        public static final int edit_query=0x7f080042;
-        public static final int end=0x7f080025;
-        public static final int expand_activities_button=0x7f080038;
-        public static final int expanded_menu=0x7f08003e;
-        public static final int grayscale=0x7f080012;
-        public static final int holo_dark=0x7f080005;
-        public static final int holo_light=0x7f080006;
-        public static final int home=0x7f080026;
-        public static final int homeAsUp=0x7f080018;
-        public static final int hybrid=0x7f080004;
-        public static final int icon=0x7f08003c;
-        public static final int ifRoom=0x7f08001d;
-        public static final int image=0x7f080039;
-        public static final int image1=0x7f080051;
-        public static final int image10=0x7f08007e;
-        public static final int image11=0x7f080083;
-        public static final int image12=0x7f080088;
-        public static final int image13=0x7f08008d;
-        public static final int image14=0x7f080092;
-        public static final int image15=0x7f080097;
-        public static final int image16=0x7f08009c;
-        public static final int image17=0x7f0800a1;
-        public static final int image18=0x7f0800a6;
-        public static final int image19=0x7f0800ab;
-        public static final int image2=0x7f080056;
-        public static final int image20=0x7f0800b0;
-        public static final int image21=0x7f0800b5;
-        public static final int image22=0x7f0800ba;
-        public static final int image3=0x7f08005b;
-        public static final int image4=0x7f080060;
-        public static final int image5=0x7f080065;
-        public static final int image6=0x7f08006a;
-        public static final int image7=0x7f08006f;
-        public static final int image8=0x7f080074;
-        public static final int image9=0x7f080079;
-        public static final int imageButton=0x7f0800c0;
-        public static final int imageView1=0x7f0800bf;
-        public static final int listMode=0x7f080014;
-        public static final int list_item=0x7f08003b;
-        public static final int match_parent=0x7f08000c;
-        public static final int middle=0x7f080024;
-        public static final int monochrome=0x7f080013;
-        public static final int never=0x7f08001c;
-        public static final int none=0x7f080000;
-        public static final int normal=0x7f080001;
-        public static final int production=0x7f080007;
-        public static final int progress_circular=0x7f08002a;
-        public static final int progress_horizontal=0x7f08002b;
-        public static final int radio=0x7f080041;
-        public static final int sandbox=0x7f080008;
-        public static final int satellite=0x7f080002;
-        public static final int search_badge=0x7f080044;
-        public static final int search_bar=0x7f080043;
-        public static final int search_button=0x7f080045;
-        public static final int search_close_btn=0x7f08004a;
-        public static final int search_edit_frame=0x7f080046;
-        public static final int search_go_btn=0x7f08004c;
-        public static final int search_mag_icon=0x7f080047;
-        public static final int search_plate=0x7f080048;
-        public static final int search_src_text=0x7f080049;
-        public static final int search_voice_btn=0x7f08004d;
-        public static final int selectionDetails=0x7f08000b;
-        public static final int shortcut=0x7f080040;
-        public static final int showCustom=0x7f08001a;
-        public static final int showHome=0x7f080017;
-        public static final int showTitle=0x7f080019;
-        public static final int split_action_bar=0x7f080030;
-        public static final int strict_sandbox=0x7f080009;
-        public static final int submit_area=0x7f08004b;
-        public static final int tabMode=0x7f080015;
-        public static final int tableRow1=0x7f080050;
-        public static final int tableRow10=0x7f08007d;
-        public static final int tableRow11=0x7f080082;
-        public static final int tableRow12=0x7f080087;
-        public static final int tableRow13=0x7f08008c;
-        public static final int tableRow14=0x7f080091;
-        public static final int tableRow15=0x7f080096;
-        public static final int tableRow16=0x7f08009b;
-        public static final int tableRow17=0x7f0800a0;
-        public static final int tableRow18=0x7f0800a5;
-        public static final int tableRow19=0x7f0800aa;
-        public static final int tableRow2=0x7f080055;
-        public static final int tableRow20=0x7f0800af;
-        public static final int tableRow21=0x7f0800b4;
-        public static final int tableRow22=0x7f0800b9;
-        public static final int tableRow3=0x7f08005a;
-        public static final int tableRow4=0x7f08005f;
-        public static final int tableRow5=0x7f080064;
-        public static final int tableRow6=0x7f080069;
-        public static final int tableRow7=0x7f08006e;
-        public static final int tableRow8=0x7f080073;
-        public static final int tableRow9=0x7f080078;
-        public static final int terrain=0x7f080003;
-        public static final int textview1=0x7f080052;
-        public static final int textview10=0x7f08007f;
-        public static final int textview10_1=0x7f080080;
-        public static final int textview10_2=0x7f080081;
-        public static final int textview11=0x7f080084;
-        public static final int textview11_1=0x7f080085;
-        public static final int textview11_2=0x7f080086;
-        public static final int textview12=0x7f080089;
-        public static final int textview12_1=0x7f08008a;
-        public static final int textview12_2=0x7f08008b;
-        public static final int textview13=0x7f08008e;
-        public static final int textview13_1=0x7f08008f;
-        public static final int textview13_2=0x7f080090;
-        public static final int textview14=0x7f080093;
-        public static final int textview14_1=0x7f080094;
-        public static final int textview14_2=0x7f080095;
-        public static final int textview15=0x7f080098;
-        public static final int textview15_1=0x7f080099;
-        public static final int textview15_2=0x7f08009a;
-        public static final int textview16=0x7f08009d;
-        public static final int textview16_1=0x7f08009e;
-        public static final int textview16_2=0x7f08009f;
-        public static final int textview17=0x7f0800a2;
-        public static final int textview17_1=0x7f0800a3;
-        public static final int textview17_2=0x7f0800a4;
-        public static final int textview18=0x7f0800a7;
-        public static final int textview18_1=0x7f0800a8;
-        public static final int textview18_2=0x7f0800a9;
-        public static final int textview19=0x7f0800ac;
-        public static final int textview19_1=0x7f0800ad;
-        public static final int textview19_2=0x7f0800ae;
-        public static final int textview1_1=0x7f080053;
-        public static final int textview1_2=0x7f080054;
-        public static final int textview2=0x7f080057;
-        public static final int textview20=0x7f0800b1;
-        public static final int textview20_1=0x7f0800b2;
-        public static final int textview20_2=0x7f0800b3;
-        public static final int textview21=0x7f0800b6;
-        public static final int textview21_1=0x7f0800b7;
-        public static final int textview21_2=0x7f0800b8;
-        public static final int textview22=0x7f0800bb;
-        public static final int textview22_1=0x7f0800bc;
-        public static final int textview22_2=0x7f0800bd;
-        public static final int textview2_1=0x7f080058;
-        public static final int textview2_2=0x7f080059;
-        public static final int textview3=0x7f08005c;
-        public static final int textview3_1=0x7f08005d;
-        public static final int textview3_2=0x7f08005e;
-        public static final int textview4=0x7f080061;
-        public static final int textview4_1=0x7f080062;
-        public static final int textview4_2=0x7f080063;
-        public static final int textview5=0x7f080066;
-        public static final int textview5_1=0x7f080067;
-        public static final int textview5_2=0x7f080068;
-        public static final int textview6=0x7f08006b;
-        public static final int textview6_1=0x7f08006c;
-        public static final int textview6_2=0x7f08006d;
-        public static final int textview7=0x7f080070;
-        public static final int textview7_1=0x7f080071;
-        public static final int textview7_2=0x7f080072;
-        public static final int textview8=0x7f080075;
-        public static final int textview8_1=0x7f080076;
-        public static final int textview8_2=0x7f080077;
-        public static final int textview9=0x7f08007a;
-        public static final int textview9_1=0x7f08007b;
-        public static final int textview9_2=0x7f08007c;
-        public static final int title=0x7f08003d;
-        public static final int title_text=0x7f0800be;
-        public static final int top_action_bar=0x7f080032;
-        public static final int up=0x7f080033;
-        public static final int useLogo=0x7f080016;
-        public static final int webview=0x7f0800c1;
-        public static final int withText=0x7f08001f;
-        public static final int wrap_content=0x7f08000d;
+        public static final int TableLayout1=0x7f0b004f;
+        public static final int action_bar=0x7f0b002e;
+        public static final int action_bar_activity_content=0x7f0b0001;
+        public static final int action_bar_container=0x7f0b002d;
+        public static final int action_bar_overlay_layout=0x7f0b0031;
+        public static final int action_bar_root=0x7f0b002c;
+        public static final int action_bar_subtitle=0x7f0b0035;
+        public static final int action_bar_title=0x7f0b0034;
+        public static final int action_context_bar=0x7f0b002f;
+        public static final int action_exit=0x7f0b00c4;
+        public static final int action_force=0x7f0b00c3;
+        public static final int action_menu_divider=0x7f0b0002;
+        public static final int action_menu_presenter=0x7f0b0003;
+        public static final int action_mode_close_button=0x7f0b0036;
+        public static final int action_refresh=0x7f0b00c2;
+        public static final int activity_chooser_view_content=0x7f0b0037;
+        public static final int adView=0x7f0b004e;
+        public static final int always=0x7f0b0022;
+        public static final int beginning=0x7f0b0029;
+        public static final int book_now=0x7f0b0014;
+        public static final int buyButton=0x7f0b0010;
+        public static final int buy_now=0x7f0b0015;
+        public static final int buy_with_google=0x7f0b0016;
+        public static final int checkbox=0x7f0b003f;
+        public static final int classic=0x7f0b0017;
+        public static final int collapseActionView=0x7f0b0023;
+        public static final int default_activity_button=0x7f0b003a;
+        public static final int dialog=0x7f0b0027;
+        public static final int disableHome=0x7f0b001c;
+        public static final int dropdown=0x7f0b0028;
+        public static final int edit_query=0x7f0b0042;
+        public static final int end=0x7f0b002a;
+        public static final int expand_activities_button=0x7f0b0038;
+        public static final int expanded_menu=0x7f0b003e;
+        public static final int grayscale=0x7f0b0018;
+        public static final int holo_dark=0x7f0b000b;
+        public static final int holo_light=0x7f0b000c;
+        public static final int home=0x7f0b0000;
+        public static final int homeAsUp=0x7f0b001d;
+        public static final int hybrid=0x7f0b0006;
+        public static final int icon=0x7f0b003c;
+        public static final int ifRoom=0x7f0b0024;
+        public static final int image=0x7f0b0039;
+        public static final int image1=0x7f0b0051;
+        public static final int image10=0x7f0b007e;
+        public static final int image11=0x7f0b0083;
+        public static final int image12=0x7f0b0088;
+        public static final int image13=0x7f0b008d;
+        public static final int image14=0x7f0b0092;
+        public static final int image15=0x7f0b0097;
+        public static final int image16=0x7f0b009c;
+        public static final int image17=0x7f0b00a1;
+        public static final int image18=0x7f0b00a6;
+        public static final int image19=0x7f0b00ab;
+        public static final int image2=0x7f0b0056;
+        public static final int image20=0x7f0b00b0;
+        public static final int image21=0x7f0b00b5;
+        public static final int image22=0x7f0b00ba;
+        public static final int image3=0x7f0b005b;
+        public static final int image4=0x7f0b0060;
+        public static final int image5=0x7f0b0065;
+        public static final int image6=0x7f0b006a;
+        public static final int image7=0x7f0b006f;
+        public static final int image8=0x7f0b0074;
+        public static final int image9=0x7f0b0079;
+        public static final int imageButton=0x7f0b00c0;
+        public static final int imageView1=0x7f0b00bf;
+        public static final int listMode=0x7f0b001a;
+        public static final int list_item=0x7f0b003b;
+        public static final int match_parent=0x7f0b0012;
+        public static final int middle=0x7f0b002b;
+        public static final int monochrome=0x7f0b0019;
+        public static final int never=0x7f0b0025;
+        public static final int none=0x7f0b0007;
+        public static final int normal=0x7f0b0008;
+        public static final int production=0x7f0b000d;
+        public static final int progress_circular=0x7f0b0004;
+        public static final int progress_horizontal=0x7f0b0005;
+        public static final int radio=0x7f0b0041;
+        public static final int sandbox=0x7f0b000e;
+        public static final int satellite=0x7f0b0009;
+        public static final int search_badge=0x7f0b0044;
+        public static final int search_bar=0x7f0b0043;
+        public static final int search_button=0x7f0b0045;
+        public static final int search_close_btn=0x7f0b004a;
+        public static final int search_edit_frame=0x7f0b0046;
+        public static final int search_go_btn=0x7f0b004c;
+        public static final int search_mag_icon=0x7f0b0047;
+        public static final int search_plate=0x7f0b0048;
+        public static final int search_src_text=0x7f0b0049;
+        public static final int search_voice_btn=0x7f0b004d;
+        public static final int selectionDetails=0x7f0b0011;
+        public static final int shortcut=0x7f0b0040;
+        public static final int showCustom=0x7f0b001e;
+        public static final int showHome=0x7f0b001f;
+        public static final int showTitle=0x7f0b0020;
+        public static final int split_action_bar=0x7f0b0030;
+        public static final int strict_sandbox=0x7f0b000f;
+        public static final int submit_area=0x7f0b004b;
+        public static final int tabMode=0x7f0b001b;
+        public static final int tableRow1=0x7f0b0050;
+        public static final int tableRow10=0x7f0b007d;
+        public static final int tableRow11=0x7f0b0082;
+        public static final int tableRow12=0x7f0b0087;
+        public static final int tableRow13=0x7f0b008c;
+        public static final int tableRow14=0x7f0b0091;
+        public static final int tableRow15=0x7f0b0096;
+        public static final int tableRow16=0x7f0b009b;
+        public static final int tableRow17=0x7f0b00a0;
+        public static final int tableRow18=0x7f0b00a5;
+        public static final int tableRow19=0x7f0b00aa;
+        public static final int tableRow2=0x7f0b0055;
+        public static final int tableRow20=0x7f0b00af;
+        public static final int tableRow21=0x7f0b00b4;
+        public static final int tableRow22=0x7f0b00b9;
+        public static final int tableRow3=0x7f0b005a;
+        public static final int tableRow4=0x7f0b005f;
+        public static final int tableRow5=0x7f0b0064;
+        public static final int tableRow6=0x7f0b0069;
+        public static final int tableRow7=0x7f0b006e;
+        public static final int tableRow8=0x7f0b0073;
+        public static final int tableRow9=0x7f0b0078;
+        public static final int terrain=0x7f0b000a;
+        public static final int textview1=0x7f0b0052;
+        public static final int textview10=0x7f0b007f;
+        public static final int textview10_1=0x7f0b0080;
+        public static final int textview10_2=0x7f0b0081;
+        public static final int textview11=0x7f0b0084;
+        public static final int textview11_1=0x7f0b0085;
+        public static final int textview11_2=0x7f0b0086;
+        public static final int textview12=0x7f0b0089;
+        public static final int textview12_1=0x7f0b008a;
+        public static final int textview12_2=0x7f0b008b;
+        public static final int textview13=0x7f0b008e;
+        public static final int textview13_1=0x7f0b008f;
+        public static final int textview13_2=0x7f0b0090;
+        public static final int textview14=0x7f0b0093;
+        public static final int textview14_1=0x7f0b0094;
+        public static final int textview14_2=0x7f0b0095;
+        public static final int textview15=0x7f0b0098;
+        public static final int textview15_1=0x7f0b0099;
+        public static final int textview15_2=0x7f0b009a;
+        public static final int textview16=0x7f0b009d;
+        public static final int textview16_1=0x7f0b009e;
+        public static final int textview16_2=0x7f0b009f;
+        public static final int textview17=0x7f0b00a2;
+        public static final int textview17_1=0x7f0b00a3;
+        public static final int textview17_2=0x7f0b00a4;
+        public static final int textview18=0x7f0b00a7;
+        public static final int textview18_1=0x7f0b00a8;
+        public static final int textview18_2=0x7f0b00a9;
+        public static final int textview19=0x7f0b00ac;
+        public static final int textview19_1=0x7f0b00ad;
+        public static final int textview19_2=0x7f0b00ae;
+        public static final int textview1_1=0x7f0b0053;
+        public static final int textview1_2=0x7f0b0054;
+        public static final int textview2=0x7f0b0057;
+        public static final int textview20=0x7f0b00b1;
+        public static final int textview20_1=0x7f0b00b2;
+        public static final int textview20_2=0x7f0b00b3;
+        public static final int textview21=0x7f0b00b6;
+        public static final int textview21_1=0x7f0b00b7;
+        public static final int textview21_2=0x7f0b00b8;
+        public static final int textview22=0x7f0b00bb;
+        public static final int textview22_1=0x7f0b00bc;
+        public static final int textview22_2=0x7f0b00bd;
+        public static final int textview2_1=0x7f0b0058;
+        public static final int textview2_2=0x7f0b0059;
+        public static final int textview3=0x7f0b005c;
+        public static final int textview3_1=0x7f0b005d;
+        public static final int textview3_2=0x7f0b005e;
+        public static final int textview4=0x7f0b0061;
+        public static final int textview4_1=0x7f0b0062;
+        public static final int textview4_2=0x7f0b0063;
+        public static final int textview5=0x7f0b0066;
+        public static final int textview5_1=0x7f0b0067;
+        public static final int textview5_2=0x7f0b0068;
+        public static final int textview6=0x7f0b006b;
+        public static final int textview6_1=0x7f0b006c;
+        public static final int textview6_2=0x7f0b006d;
+        public static final int textview7=0x7f0b0070;
+        public static final int textview7_1=0x7f0b0071;
+        public static final int textview7_2=0x7f0b0072;
+        public static final int textview8=0x7f0b0075;
+        public static final int textview8_1=0x7f0b0076;
+        public static final int textview8_2=0x7f0b0077;
+        public static final int textview9=0x7f0b007a;
+        public static final int textview9_1=0x7f0b007b;
+        public static final int textview9_2=0x7f0b007c;
+        public static final int title=0x7f0b003d;
+        public static final int title_text=0x7f0b00be;
+        public static final int top_action_bar=0x7f0b0032;
+        public static final int up=0x7f0b0033;
+        public static final int useLogo=0x7f0b0021;
+        public static final int webview=0x7f0b00c1;
+        public static final int withText=0x7f0b0026;
+        public static final int wrap_content=0x7f0b0013;
     }
     public static final class integer {
         /**  The maximum number of action buttons that should be permitted within
@@ -1697,8 +1697,8 @@ containing a value of this type.
          an action bar/action mode. This will be used to determine how many
          showAsAction="ifRoom" items can fit. "always" items can override this. 
          */
-        public static final int abc_max_action_buttons=0x7f090001;
-        public static final int google_play_services_version=0x7f090000;
+        public static final int abc_max_action_buttons=0x7f080001;
+        public static final int google_play_services_version=0x7f080000;
     }
     public static final class layout {
         public static final int abc_action_bar_decor=0x7f030000;
