@@ -66,7 +66,7 @@ public class MainActivity extends Activity {
 	private AdView adView;
 	private ConnectivityManager cm;
 	
-	Supermarket s[] = new Supermarket[SIZE];
+	SuperMarket s[] = new SuperMarket[SIZE];
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -80,7 +80,7 @@ public class MainActivity extends Activity {
 			AdBuddiz.showAd(this);
 		}
 		
-		s[0] = new Supermarket("大統華超級市場");
+		s[0] = new SuperMarket("大統華超級市場");
 		tr[0] = (TableRow)findViewById(R.id.tableRow1);
 		tv[0] = (TextView)findViewById(R.id.textview1);
 		expiredDate[0] = (TextView)findViewById(R.id.textview1_2);
@@ -88,7 +88,7 @@ public class MainActivity extends Activity {
 		s[0].setURL("http://deals.superlife.ca/couponinfo/%e5%a4%a7%e7%bb%9f%e5%8d%8e%e6%9c%ac%e5%91%a8%e7%89%b9%e4%bb%b7flyer/", 0);
 		s[0].setURL("http://tnt.flyercenter.com/flyer/", 1);
 		//s[0].setURL("http://www.dushi.ca/tor/supermarket.php?pageid=1", 2);
-		s[1] = new Supermarket("鴻泰超級市場");
+		s[1] = new SuperMarket("鴻泰超級市場");
 		tr[1] = (TableRow)findViewById(R.id.tableRow2);
 		tv[1] = (TextView)findViewById(R.id.textview2);
 		expiredDate[1] = (TextView)findViewById(R.id.textview2_2);
@@ -96,7 +96,7 @@ public class MainActivity extends Activity {
 		s[1].setURL("http://deals.superlife.ca/couponinfo/%E9%B8%BF%E6%B3%B0%E6%9C%AC%E5%91%A8%E7%89%B9%E4%BB%B7flyer/", 0);
 		s[1].setURL("http://hongtai.flyercenter.com/flyer/", 1);
 		//s[1].setURL("http://www.dushi.ca/tor/supermarket.php", 2);
-		s[2] = new Supermarket("大福超級市場");
+		s[2] = new SuperMarket("大福超級市場");
 		tr[2] = (TableRow)findViewById(R.id.tableRow3);
 		tv[2] = (TextView)findViewById(R.id.textview3);
 		expiredDate[2] = (TextView)findViewById(R.id.textview3_2);
@@ -104,7 +104,7 @@ public class MainActivity extends Activity {
 		s[2].setURL("http://deals.superlife.ca/couponinfo/%E5%A4%A7%E7%A6%8F%E6%9C%AC%E5%91%A8%E7%89%B9%E4%BB%B7flyer/", 0);
 		s[2].setURL("http://grandfortune.flyercenter.com/flyer/", 1);
 		//s[2].setURL("http://www.dushi.ca/tor/supermarket.php?pageid=3", 2);
-		s[3] = new Supermarket("大中華超級市場");
+		s[3] = new SuperMarket("大中華超級市場");
 		tr[3] = (TableRow)findViewById(R.id.tableRow4);
 		tv[3] = (TextView)findViewById(R.id.textview4);
 		expiredDate[3] = (TextView)findViewById(R.id.textview4_2);
@@ -112,7 +112,7 @@ public class MainActivity extends Activity {
 		s[3].setURL("http://deals.superlife.ca/couponinfo/%E5%A4%A7%E4%B8%AD%E5%8D%8E%E6%9C%AC%E5%91%A8%E7%89%B9%E4%BB%B7flyer/", 0);
 		s[3].setURL("http://dazhonghua.flyercenter.com/flyer/", 1);
 		//s[3].setURL("http://www.dushi.ca/tor/supermarket.php?pageid=4", 2);
-		s[4] = new Supermarket("信達超級市場");
+		s[4] = new SuperMarket("信達超級市場");
 		tr[4] = (TableRow)findViewById(R.id.tableRow5);
 		tv[4] = (TextView)findViewById(R.id.textview5);
 		expiredDate[4] = (TextView)findViewById(R.id.textview5_2);
@@ -120,7 +120,7 @@ public class MainActivity extends Activity {
 		s[4].setURL("http://deals.superlife.ca/couponinfo/%E4%BF%A1%E8%BE%BE%E6%9C%AC%E5%91%A8%E7%89%B9%E4%BB%B7flyer/", 0);
 		s[4].setURL("http://brust.flyercenter.com/flyer/", 1);
 		//s[4].setURL("http://www.dushi.ca/tor/supermarket.php?pageid=8", 2);
-		s[5] = new Supermarket("冠業超級市場");
+		s[5] = new SuperMarket("冠業超級市場");
 		tr[5] = (TableRow)findViewById(R.id.tableRow6);
 		tv[5] = (TextView)findViewById(R.id.textview6);
 		expiredDate[5] = (TextView)findViewById(R.id.textview6_2);
@@ -128,7 +128,7 @@ public class MainActivity extends Activity {
 		s[5].setURL("http://deals.superlife.ca/couponinfo/%e5%86%a0%e4%b8%9a%e6%9c%ac%e5%91%a8%e7%89%b9%e4%bb%b7flyer/", 0);
 		s[5].setURL("http://firstchoicesupermarket.flyercenter.com/flyer/", 1);
 		//s[5].setURL("http://www.dushi.ca/tor/supermarket.php?pageid=11", 2);
-		s[6] = new Supermarket("豐泰超級市場");
+		s[6] = new SuperMarket("豐泰超級市場");
 		tr[6] = (TableRow)findViewById(R.id.tableRow7);
 		tv[6] = (TextView)findViewById(R.id.textview7);
 		expiredDate[6] = (TextView)findViewById(R.id.textview7_2);
@@ -136,7 +136,7 @@ public class MainActivity extends Activity {
 		s[6].setURL("http://deals.superlife.ca/couponinfo/%e4%b8%b0%e6%b3%b0%e6%9c%ac%e5%91%a8%e7%89%b9%e4%bb%b7flyer/", 0);
 		s[6].setURL("http://fengtai.flyercenter.com/flyer/", 1);
 		//s[6].setURL("http://www.dushi.ca/tor/supermarket.php?pageid=12", 2);
-		s[7] = new Supermarket("華盛超級市場");
+		s[7] = new SuperMarket("華盛超級市場");
 		tr[7] = (TableRow)findViewById(R.id.tableRow8);
 		tv[7] = (TextView)findViewById(R.id.textview8);
 		expiredDate[7] = (TextView)findViewById(R.id.textview8_2);
@@ -144,7 +144,7 @@ public class MainActivity extends Activity {
 		s[7].setURL("http://deals.superlife.ca/couponinfo/%e5%8d%8e%e7%9b%9b%e6%9c%ac%e5%91%a8%e7%89%b9%e4%bb%b7flyer/", 0);
 		s[7].setURL("http://oriental.flyercenter.com/flyer/", 1);
 		//s[7].setURL("http://www.dushi.ca/tor/supermarket.php?pageid=13", 2);
-		s[8] = new Supermarket("大世界超級市場");
+		s[8] = new SuperMarket("大世界超級市場");
 		tr[8] = (TableRow)findViewById(R.id.tableRow9);
 		tv[8] = (TextView)findViewById(R.id.textview9);
 		expiredDate[8] = (TextView)findViewById(R.id.textview9_2);
@@ -152,7 +152,7 @@ public class MainActivity extends Activity {
 		s[8].setURL("http://deals.superlife.ca/couponinfo/%e5%a4%a7%e4%b8%96%e7%95%8c%e6%9c%ac%e5%91%a8%e7%89%b9%e4%bb%b7flyer/", 0);
 		//s[8].setURL("http://tnt.flyercenter.com/flyer/", 1);
 		//s[8].setURL("http://www.dushi.ca/tor/supermarket.php?pageid=14", 2);
-		s[9] = new Supermarket("鼎泰超級市場");
+		s[9] = new SuperMarket("鼎泰超級市場");
 		tr[9] = (TableRow)findViewById(R.id.tableRow10);
 		tv[9] = (TextView)findViewById(R.id.textview10);
 		expiredDate[9] = (TextView)findViewById(R.id.textview10_2);
@@ -160,13 +160,13 @@ public class MainActivity extends Activity {
 		s[9].setURL("http://deals.superlife.ca/couponinfo/%e9%bc%8e%e6%b3%b0%e6%9c%ac%e5%91%a8%e7%89%b9%e4%bb%b7flyer/", 0);
 		s[9].setURL("http://tonetai.flyercenter.com/flyer/", 1);
 		//s[9].setURL("http://www.dushi.ca/tor/supermarket.php?pageid=15", 2);
-		s[10] = new Supermarket("多福超級市場");
+		s[10] = new SuperMarket("多福超級市場");
 		tr[10] = (TableRow)findViewById(R.id.tableRow11);
 		tv[10] = (TextView)findViewById(R.id.textview11);
 		expiredDate[10] = (TextView)findViewById(R.id.textview11_2);
 		s[10].setURL("http://deals.superlife.ca/couponinfo/%e5%a4%9a%e7%a6%8f%e8%b6%85%e5%b8%82%e6%9c%ac%e5%91%a8%e7%89%b9%e4%bb%b7flyer/", 0);
 		s[10].setURL("http://topfood.flyercenter.com/flyer/", 1);
-		s[11] = new Supermarket("鴻華超級市場");
+		s[11] = new SuperMarket("鴻華超級市場");
 		tr[11] = (TableRow)findViewById(R.id.tableRow12);
 		tv[11] = (TextView)findViewById(R.id.textview12);
 		expiredDate[11] = (TextView)findViewById(R.id.textview12_2);
@@ -174,13 +174,13 @@ public class MainActivity extends Activity {
 		s[11].setURL("http://deals.superlife.ca/couponinfo/%e9%b8%bf%e5%8d%8e%e8%b6%85%e5%b8%82%e6%9c%ac%e5%91%a8%e7%89%b9%e4%bb%b7flyer/", 0);
 		//s[11].setURL("http://tnt.flyercenter.com/flyer/", 1);
 		//s[11].setURL("http://www.dushi.ca/tor/supermarket.php?pageid=2", 2);
-		s[12] = new Supermarket("元明超級市場");
+		s[12] = new SuperMarket("元明超級市場");
 		tr[12] = (TableRow)findViewById(R.id.tableRow13);
 		tv[12] = (TextView)findViewById(R.id.textview13);
 		expiredDate[12] = (TextView)findViewById(R.id.textview13_2);
 		s[12].setURL("http://deals.superlife.ca/couponinfo/%e5%85%83%e6%98%8e%e8%b6%85%e5%b8%82%e6%9c%ac%e5%91%a8%e7%89%b9%e4%bb%b7flyer/", 0);
 		//s[12].setURL("http://tnt.flyercenter.com/flyer/", 1);
-		s[13] = new Supermarket("福耀超級市場");
+		s[13] = new SuperMarket("福耀超級市場");
 		tr[13] = (TableRow)findViewById(R.id.tableRow14);
 		tv[13] = (TextView)findViewById(R.id.textview14);
 		expiredDate[13] = (TextView)findViewById(R.id.textview14_2);
@@ -188,13 +188,13 @@ public class MainActivity extends Activity {
 		s[13].setURL("http://deals.superlife.ca/couponinfo/%e7%a6%8f%e8%80%80%e8%b6%85%e5%b8%82%e6%9c%ac%e5%91%a8%e7%89%b9%e4%bb%b7flyer/", 0);
 		s[13].setURL("http://fuyao.flyercenter.com/flyer/", 1);
 		//s[13].setURL("http://www.dushi.ca/tor/supermarket.php?pageid=6", 2);
-		s[14] = new Supermarket("陽光超級市場");
+		s[14] = new SuperMarket("陽光超級市場");
 		tr[14] = (TableRow)findViewById(R.id.tableRow15);
 		tv[14] = (TextView)findViewById(R.id.textview15);
 		expiredDate[14] = (TextView)findViewById(R.id.textview15_2);
 		s[14].setURL("http://deals.superlife.ca/couponinfo/%e9%98%b3%e5%85%89%e8%b6%85%e5%b8%82%e6%9c%ac%e5%91%a8%e7%89%b9%e4%bb%b7flyer/", 0);
 		//s[14].setURL("http://tnt.flyercenter.com/flyer/", 1);
-		s[15] = new Supermarket("家樂匯超級市場");
+		s[15] = new SuperMarket("家樂匯超級市場");
 		tr[15] = (TableRow)findViewById(R.id.tableRow16);
 		tv[15] = (TextView)findViewById(R.id.textview16);
 		expiredDate[15] = (TextView)findViewById(R.id.textview16_2);
@@ -202,19 +202,19 @@ public class MainActivity extends Activity {
 		s[15].setURL("http://deals.superlife.ca/couponinfo/%e5%ae%b6%e4%b9%90%e6%b1%87galleria%e6%9c%ac%e5%91%a8%e7%89%b9%e4%bb%b7flyer/", 0);
 		//s[15].setURL("http://tnt.flyercenter.com/flyer/", 1);
 		//s[15].setURL("http://www.dushi.ca/tor/supermarket.php?pageid=7", 2);
-		s[16] = new Supermarket("Price Chopper");
+		s[16] = new SuperMarket("Price Chopper");
 		tr[16] = (TableRow)findViewById(R.id.tableRow17);
 		tv[16] = (TextView)findViewById(R.id.textview17);
 		expiredDate[16] = (TextView)findViewById(R.id.textview17_2);
 		s[16].setURL("http://deals.superlife.ca/couponinfo/price-choppers%e6%9c%ac%e5%91%a8%e7%89%b9%e4%bb%b7flyer/", 0);
 		s[16].setURL("http://pricechopper.flyercenter.com/flyer/", 1);
-		s[17] = new Supermarket("FreshCo.");
+		s[17] = new SuperMarket("FreshCo.");
 		tr[17] = (TableRow)findViewById(R.id.tableRow18);
 		tv[17] = (TextView)findViewById(R.id.textview18);
 		expiredDate[17] = (TextView)findViewById(R.id.textview18_2);
 		s[17].setURL("http://deals.superlife.ca/couponinfo/freshco-%e6%9c%ac%e5%91%a8%e7%89%b9%e4%bb%b7flyer/", 0);
 		s[17].setURL("http://freshco.flyercenter.com/flyer/", 1);
-		s[18] = new Supermarket("Food Basics");
+		s[18] = new SuperMarket("Food Basics");
 		tr[18] = (TableRow)findViewById(R.id.tableRow19);
 		tv[18] = (TextView)findViewById(R.id.textview19);
 		expiredDate[18] = (TextView)findViewById(R.id.textview19_2);
@@ -222,13 +222,13 @@ public class MainActivity extends Activity {
 		s[18].setURL("http://deals.superlife.ca/couponinfo/food-basic%e6%9c%ac%e5%91%a8%e7%89%b9%e4%bb%b7flyer/", 0);
 		s[18].setURL("http://foodbasics.flyercenter.com/flyer/", 1);
 		//s[18].setURL("http://www.dushi.ca/tor/supermarket.php?pageid=9", 2);
-		s[19] = new Supermarket("No Frills");
+		s[19] = new SuperMarket("No Frills");
 		tr[19] = (TableRow)findViewById(R.id.tableRow20);
 		tv[19] = (TextView)findViewById(R.id.textview20);
 		expiredDate[19] = (TextView)findViewById(R.id.textview20_2);
 		s[19].setURL("http://deals.superlife.ca/couponinfo/nofrills%e6%9c%ac%e5%91%a8%e7%89%b9%e4%bb%b7flyer/", 0);
 		s[19].setURL("http://nofrills.flyercenter.com/flyer/", 1);
-		s[20] = new Supermarket("佳樂超級市場");
+		s[20] = new SuperMarket("佳樂超級市場");
 		tr[20] = (TableRow)findViewById(R.id.tableRow21);
 		tv[20] = (TextView)findViewById(R.id.textview21);
 		expiredDate[20] = (TextView)findViewById(R.id.textview21_2);
@@ -236,7 +236,7 @@ public class MainActivity extends Activity {
 		//s[20].setURL("http://deals.superlife.ca/couponinfo/nofrills%e6%9c%ac%e5%91%a8%e7%89%b9%e4%bb%b7flyer/", 0);
 		//s[20].setURL("http://nofrills.flyercenter.com/flyer/", 1);
 		//s[20].setURL("http://www.dushi.ca/tor/supermarket.php?pageid=5", 2);
-		s[21] = new Supermarket("百福超級市場");
+		s[21] = new SuperMarket("百福超級市場");
 		tr[21] = (TableRow)findViewById(R.id.tableRow22);
 		tv[21] = (TextView)findViewById(R.id.textview22);
 		expiredDate[21] = (TextView)findViewById(R.id.textview22_2);

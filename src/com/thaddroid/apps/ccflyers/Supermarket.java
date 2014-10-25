@@ -1,6 +1,6 @@
 package com.thaddroid.apps.ccflyers;
 
-public class Supermarket {
+public class SuperMarket {
 	private String name;
 	private int flyerPages;
 	private String website[];
@@ -10,7 +10,7 @@ public class Supermarket {
 	private int server;
 	private String ccp;
 
-	public Supermarket(String n) {
+	public SuperMarket(String n) {
 		ccp="";
 		flyer = new Flyers(1);
 		name = n;

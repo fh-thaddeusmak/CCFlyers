@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="supermarket_title_list">
+        <item name="tnt">大統華超級市場</item>
+        <item name="feng_tai">豐泰超級市場</item>
+        <item name="da_fu">大福超級市場</item>
+    </string-array>
+</resources>
