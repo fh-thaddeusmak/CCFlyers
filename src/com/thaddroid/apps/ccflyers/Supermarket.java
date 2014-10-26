@@ -2,9 +2,12 @@ package com.thaddroid.apps.ccflyers;
 
 public class SuperMarket {
 	private String name;
+	private int bannerResId;
 	private int flyerPages;
 	private String website[];
 	private String date;
+	private int startDate;
+	private int endDate;
 	private Flyers flyer;
 	private boolean update;
 	private int server;
@@ -17,6 +20,11 @@ public class SuperMarket {
 		website = new String[]{"NA", "NA","http://www.dushi.ca/flyer/Toronto/SupperMarket/","NA"};
 		date="0";
 		update=true;
+		bannerResId = 0;
+	}
+	
+	public void setBannerResId(int id){
+		this.bannerResId = id;
 	}
 	
 	public void setPages(int page){
@@ -65,6 +73,10 @@ public class SuperMarket {
 	
 	public int getPages(){
 		return flyerPages;
+	}
+	
+	public int getBannerResId(){
+		return bannerResId;
 	}
 	
 	public String getDate(){

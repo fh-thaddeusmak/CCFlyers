@@ -758,7 +758,9 @@ public class MainActivity extends Activity {
 	    		}
 	            return true;
 	        case R.id.action_exit:
-	            super.finish();
+	            //super.finish();
+	        	Intent newIntent = new Intent(MainActivity.this, MainActivityV2.class);
+	        	startActivity(newIntent);
 	            return true;
 	        default:
 	            return super.onOptionsItemSelected(item);
